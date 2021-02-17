@@ -1,0 +1,19 @@
+{
+	"shell_cmd": "mcs $file_name; mono $file_base_name.exe; rm $file_base_name.exe",
+	"working_dir": "${file_path}",
+	"file_patterns": "*.cs",
+	"variants": [
+		{
+			"name": "Build",
+			"shell_cmd": "mcs $file_name"
+		}, {
+			"name": "Run",
+			"shell_cmd": "mono $file_path/$file_base_name.exe",
+			"shell" : true,
+		}, {
+			"name": "Clean",
+			"shell_cmd": "rm $file_path/$file_base_name.exe",
+			"shell" : true,
+		}
+	]
+}

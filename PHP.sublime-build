@@ -1,11 +1,11 @@
 {
-	"shell_cmd": "/Applications/MAMP/bin/php/php8.0.0/bin/php $file",
+	"shell_cmd": "php $file",
 	"working_dir": "${file_path}",
 	"file_patterns": "*.php",
 	"variants": [
 		{
 			"name": "Syntax check",
-			"shell_cmd": "/Applications/MAMP/bin/php/php8.0.0/bin/php -l $file"
+			"shell_cmd": "php -l $file"
 		}
 	]
 }

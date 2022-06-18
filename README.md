@@ -2,12 +2,14 @@
 
 Some common setting files for Sublime Text.
 
-**Install:** `cp *.sublime-* ~/Library/Application\ Support/Sublime\ Text/Packages/User/`
+**Apply my settings:** `cp ./*.sublime-* ~/Library/Application\ Support/Sublime\ Text/Packages/User/` or run `Apply` script.
 
 **Required packages:**
 - UI: `ayu`, `Theme - Gravity`, `Xcode Colors`, `A File Icon`.
 - LaTeX support: `LaTeXTools`.
 - Swift language highlight: `Swift`.
+
+*(You can install easily via Package Control)*
 
 This repo include:
 

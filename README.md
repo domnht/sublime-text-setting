@@ -2,7 +2,7 @@
 
 Some common setting files for Sublime Text.
 
-**Install:** `cp * ~/Library/Application\ Support/Sublime\ Text/Packages/User`
+**Install:** `cp *.sublime-* ~/Library/Application\ Support/Sublime\ Text/Packages/User/`
 
 **Required packages:**
 - UI: `ayu`, `Theme - Gravity`, `Xcode Colors`, `A File Icon`.

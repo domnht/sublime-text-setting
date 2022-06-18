@@ -1,6 +1,5 @@
 {
 	"shell_cmd": "xcrun swift $file",
 	"working_dir": "${file_path}",
-	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
 	"file_patterns": "*.swift",
 }

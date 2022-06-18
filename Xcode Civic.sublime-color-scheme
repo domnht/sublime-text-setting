@@ -1,0 +1,44 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{ // Dark Default
+	"variables": {
+		"plain_text": "#FFFFFFD9",
+		"comments": "#6C7986",
+		"documentation_markup": "#6C7986",
+		"documentation_markup_keywords" : "#92A1B1",
+		"strings": "#FC6A5D",
+		"characters": "#D0BF69",
+		"numbers": "#D0BF69",
+		"keywords": "#FC5FA3",
+		"preprocessor_statements": "#FD8F3F",
+		"urls": "#5482FF",
+		"attributes": "#BF8555",
+		"project_class_names": "#9EF1DD",
+		"project_method_names": "#67B7A4",
+		"project_constants": "#67B7A4",
+		"project_type_names": "#9EF1DD",
+		"project_variables": "#67B7A4",
+		"project_preprocessor_macros": "#FD8F3F",
+		"other_class_names": "#D0A8FF",
+		"other_method_names": "#A167E6",
+		"other_constants": "#A167E6",
+		"other_type_names": "#D0A8FF",
+		"other_variables": "#A167E6",
+		"other_preprocessor_macros": "#FD8F3F",
+
+		"background": "#1F1F24",
+		"current_line": "#23252B",
+		"selection": "#515B70",
+		"cursor": "#FFFFFF",
+		"invisibles": "#424D5B",
+
+		"embedded": "color(var(background) blend(var(invisibles) 86%))",
+		"invalid": "var(strings)",
+	},
+	"rules": [
+		{
+			"name": "Keywords, Storage and Constants",
+			"scope": "keyword, storage, support.constant, constant.language",
+			"font_style": "bold"
+		}
+	]
+}

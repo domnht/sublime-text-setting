@@ -1,4 +1,4 @@
-# SublimeText Setting
+# Sublime Text Settings
 
 Some common setting files for Sublime Text.
 

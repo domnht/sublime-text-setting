@@ -1,4 +1,3 @@
-// Documentation at https://www.sublimetext.com/docs/color_schemes.html
 { // Dark Default
 	"variables": {
 		"plain_text": "#FFFFFFD9",
@@ -39,6 +38,14 @@
 			"name": "Keywords, Storage and Constants",
 			"scope": "keyword, storage, support.constant, constant.language",
 			"font_style": "bold"
-		}
+		}, {
+			"name": "Inherited Class",
+			"scope": "entity.other.inherited-class",
+			"foreground": "var(project_class_names)"
+		}, {
+            "name": "Embedded",
+            "scope": "punctuation.section.embedded",
+            "foreground": "var(comments)"
+        }
 	]
 }

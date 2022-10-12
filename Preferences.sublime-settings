@@ -27,19 +27,22 @@
 		"*.sublime-workspace",
 		".DS_Store"
 	], // For LaTeX
-	"font_face": "SF Mono",
-	// "font_face": "JetBrains Mono",
+	// "font_face": "SF Mono",
+	"font_face": "JetBrains Mono",
 	"font_size": 12,
 	"highlight_line": true,
 	"hot_exit": false,
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_completion": false,
 	"update_check": false,
 	"word_wrap": false,
-	"ignored_packages":["Vintage",
+	"ignored_packages":["A File Icon",
+		"AutoFoldCode",
+		"Tabnine",
+		"Vintage",
 	],
 	
 	// Themes
@@ -47,10 +50,10 @@
 	"color_scheme": "auto",
 	// AYU Theme - Athestic look
 	// Package: "AYU", "A File Icon"
-	"dark_theme": "ayu-mirage.sublime-theme",
-	"light_theme": "ayu-light.sublime-theme",
-	"dark_color_scheme": "ayu-mirage.sublime-color-scheme",
-	"light_color_scheme": "ayu-light.sublime-color-scheme",
+	// "dark_theme": "ayu-mirage.sublime-theme",
+	// "light_theme": "ayu-light.sublime-theme",
+	// "dark_color_scheme": "ayu-mirage.sublime-color-scheme",
+	// "light_color_scheme": "ayu-light.sublime-color-scheme",
 	// Theme settings:
 	"ui_native_titlebar": false, // Use macOS native titlebar or not
 	"ui_separator": true, // Enable separator on UI
@@ -58,11 +61,10 @@
 	
 	// Gravity Theme - macOS look
 	// Package: "Theme - Gravity", "Xcode Colors"
-
-	// "dark_theme": "Gravity.sublime-theme",
-	// "light_theme": "Reverse Gravity.sublime-theme",
-	// "dark_color_scheme": "Xcode Civic.sublime-color-scheme",
-	// "light_color_scheme": "Xcode Default.sublime-color-scheme",
+	"dark_theme": "Gravity.sublime-theme",
+	"light_theme": "Reverse Gravity.sublime-theme",
+	"dark_color_scheme": "Dark+.sublime-color-scheme",
+	"light_color_scheme": "Light+.sublime-color-scheme",
 
 	// Theme settings:
 	"gravity_title_bar": true, // Apply the macOS title bar.
@@ -71,4 +73,5 @@
 	"gravity_org_label_size": false, // Apply previous version sidebar and tab label size.
 	"gravity_tab_height_short": true, // Apply one of the two UI Tab height options: short or tall.
 	"gravity_highlight_color_orange": true, //Apply the macOS accent color (use only one, gray is default): blue, purple, pink, red, orange, yellow, green.
+	"auto_complete": true,
 }

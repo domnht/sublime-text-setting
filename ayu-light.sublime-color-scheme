@@ -1,10 +1,11 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
 {
 	"rules":
 	[
-		{
-			"name": "Keywords, Storage and Constants",
-			"scope": "keyword, storage",
-			"font_style": "bold"
-		}
+		// {
+		// 	"name": "Keywords, Storage and Constants",
+		// 	"scope": "keyword, storage",
+		// 	"font_style": "bold"
+		// }
 	]
 }

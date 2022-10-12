@@ -1,0 +1,5 @@
+{
+	"shell_cmd": "/Applications/MAMP/bin/php/php8.0.8/bin/php $file",
+	"working_dir": "${file_path}",
+	"file_patterns": "*.php"
+}

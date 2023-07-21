@@ -63,8 +63,8 @@
 	// Package: "Theme - Gravity", "Xcode Colors"
 	"dark_theme": "Gravity.sublime-theme",
 	"light_theme": "Reverse Gravity.sublime-theme",
-	"dark_color_scheme": "Dark+.sublime-color-scheme",
-	"light_color_scheme": "Light+.sublime-color-scheme",
+	"dark_color_scheme": "Xcode Civic.sublime-color-scheme",
+	"light_color_scheme": "Xcode Default.sublime-color-scheme",
 
 	// Theme settings:
 	"gravity_title_bar": true, // Apply the macOS title bar.

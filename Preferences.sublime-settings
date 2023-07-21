@@ -1,5 +1,8 @@
 {
 	"caret_style": "smooth",
+	"caret_extra_top": 1,
+	"caret_extra_bottom": 1,
+	"caret_extra_width": 1,
 	"fade_fold_buttons": false,
 	"file_exclude_patterns": [
 		"*.blg",

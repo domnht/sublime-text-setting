@@ -27,8 +27,9 @@
 		"*.bcf",
 		"*.lot",
 		"*.run.xml",
-		"*.sublime-workspace",
-		".DS_Store"
+		"*.thm",
+		".DS_Store",
+		"*.synctex"
 	], // For LaTeX
 	// "font_face": "SF Mono",
 	"font_face": "JetBrains Mono",
@@ -41,10 +42,8 @@
 	"show_line_endings": true,
 	"tab_completion": false,
 	"update_check": false,
-	"word_wrap": false,
+	"word_wrap": true,
 	"ignored_packages":["A File Icon",
-		"AutoFoldCode",
-		"Tabnine",
 		"Vintage",
 	],
 	
@@ -77,4 +76,5 @@
 	"gravity_tab_height_short": true, // Apply one of the two UI Tab height options: short or tall.
 	"gravity_highlight_color_orange": true, //Apply the macOS accent color (use only one, gray is default): blue, purple, pink, red, orange, yellow, green.
 	"auto_complete": true,
+	"index_files": true,
 }

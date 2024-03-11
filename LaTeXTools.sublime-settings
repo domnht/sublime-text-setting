@@ -187,7 +187,7 @@
 	"temp_files_exts": [
 		".blg",".bbl",".aux",".log",".brf",".nlo",".out",".dvi",".ps",
 		".lof", ".lol",".toc",".fls",".fdb_latexmk",".pdfsync",".synctex.gz",
-		".ind",".ilg",".idx",".bcf",".lot",".run.xml",".sublime-workspace"
+		".ind",".ilg",".idx",".bcf",".lot",".run.xml",".thm",".synctex"
 	],
 	// Folders that are not traversed when deleting temp files
 	"temp_files_ignored_folders": [

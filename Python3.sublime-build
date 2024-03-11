@@ -1,5 +1,0 @@
-{
-	"shell_cmd": "python3 $file",
-	"working_dir": "${file_path}",
-	"file_patterns": "*.py",
-}
